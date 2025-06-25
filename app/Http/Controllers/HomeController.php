@@ -14,7 +14,7 @@ class HomeController extends Controller
 
     public function __construct()
     {
-        $this->gatewayBaseUrl = env('WHATSAPP_GATEWAY_URL', 'http://localhost:8000');
+        $this->gatewayBaseUrl = env('WA_GATEWAY_URL', 'http://localhost:8080');
     }
 
     public function index()
